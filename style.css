@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  font-family: "Georgia", serif;
+  background: url("https://images.unsplash.com/photo-1607082349566-1870f4958d25")
+    no-repeat center center/cover;
+  height: 100vh;
+}
+
+.overlay {
+  background: rgba(43, 24, 10, 0.88);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  padding: 40px 20px;
+  max-width: 650px;
+  color: #fdf5e6;
+}
+
+/* Logo */
+.logo {
+  width: 140px;
+  margin-bottom: 20px;
+}
+
+/* Title */
+h1 {
+  font-size: 48px;
+  color: gold;
+  margin: 10px 0;
+  letter-spacing: 2px;
+}
+
+/* Tagline */
+h2 {
+  font-size: 22px;
+  font-style: italic;
+  color: #f5d68c;
+  margin-bottom: 20px;
+}
+
+.description {
+  font-size: 16px;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+/* Launching Soon */
+.launching {
+  font-size: 42px;
+  color: gold;
+  font-weight: bold;
+  margin: 15px 0;
+}
+
+.subtext {
+  font-size: 16px;
+  margin-bottom: 25px;
+}
+
+/* Email Signup */
+.email-box {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.email-box input {
+  padding: 14px;
+  width: 65%;
+  border: none;
+  outline: none;
+  border-radius: 8px 0 0 8px;
+}
+
+.email-box button {
+  padding: 14px 25px;
+  border: none;
+  cursor: pointer;
+  background: gold;
+  font-weight: bold;
+  color: #2b180a;
+  border-radius: 0 8px 8px 0;
+  transition: 0.3s;
+}
+
+.email-box button:hover {
+  background: #f5d68c;
+}
+
+/* Social Icons */
+.social-icons {
+  margin: 40px 0;
+}
+
+.social-icons a {
+  margin: 0 12px;
+  font-size: 22px;
+  color: gold;
+  transition: 0.3s;
+}
+
+.social-icons a:hover {
+  color: white;
+}
+
+/* ✅ Footer */
+footer {
+  font-size: 13px;
+  opacity: 0.85;
+  margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 36px;
+  }
+
+  .launching {
+    font-size: 30px;
+  }
+
+  .email-box {
+    flex-direction: column;
+  }
+
+  .email-box input,
+  .email-box button {
+    width: 100%;
+    border-radius: 8px;
+    margin: 6px 0;
+  }
+}
