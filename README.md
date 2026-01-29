@@ -42,3 +42,19 @@ chai-culture-coming-soon/
 │── script.js
 │── logo.jpeg
 │── README.md
+
+---
+
+## Live Demo
+
+🔗 Live Website: *(Add your Netlify/Vercel link here)*
+
+---
+
+## Submission Info
+
+This project was created as a frontend assignment for **Chai Culture** to build a “Coming Soon” landing page.
+
+---
+
+© 2026 Chai Culture. All Rights Reserved.
